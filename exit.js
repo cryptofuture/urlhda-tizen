@@ -1,0 +1,1 @@
+(function(){function keyEventHandler(event){if(event.keyName==="back"){try{tizen.application.getCurrentApplication().exit();}catch(ignore){}}}function init(){document.addEventListener("tizenhwkey",keyEventHandler);}window.onload=init;}());
